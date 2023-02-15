@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/WhereToGo-Booking-App/static/css/main.e38e5304.css",
-    "main.js": "/WhereToGo-Booking-App/static/js/main.0c077300.js",
+    "main.css": "/WhereToGo-Booking-App/static/css/main.0711743c.css",
+    "main.js": "/WhereToGo-Booking-App/static/js/main.0c8b3dbf.js",
     "static/js/787.955aff0c.chunk.js": "/WhereToGo-Booking-App/static/js/787.955aff0c.chunk.js",
     "static/media/w2g_logo.png": "/WhereToGo-Booking-App/static/media/w2g_logo.2f3acfcaf96808584091.png",
     "index.html": "/WhereToGo-Booking-App/index.html",
-    "main.e38e5304.css.map": "/WhereToGo-Booking-App/static/css/main.e38e5304.css.map",
-    "main.0c077300.js.map": "/WhereToGo-Booking-App/static/js/main.0c077300.js.map",
+    "main.0711743c.css.map": "/WhereToGo-Booking-App/static/css/main.0711743c.css.map",
+    "main.0c8b3dbf.js.map": "/WhereToGo-Booking-App/static/js/main.0c8b3dbf.js.map",
     "787.955aff0c.chunk.js.map": "/WhereToGo-Booking-App/static/js/787.955aff0c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e38e5304.css",
-    "static/js/main.0c077300.js"
+    "static/css/main.0711743c.css",
+    "static/js/main.0c8b3dbf.js"
   ]
 }
