@@ -33,8 +33,8 @@ export const HotelCard = ({ hotel, id }) => {
 	const getTimeDiff = () => {
 		const months = ['Jan.', 'Feb.', 'March', 'April', 'May', 'June', 'July', 'Aug.', 'Sep.', 'Oct.', 'Nov.', 'Dec.'];
 		if (alreadyBooked) {
-			const reservationDate = currentUser.bookings.find((book) => book.hotel.hotelName === hotel.hotelName).bookedDate;
-			return `${reservationDate.getDate()} ${months[reservationDate.getMonth()]}  ${reservationDate.getFullYear()}`;
+			const reservationDate = new Date(currentUser.bookings.find((booking) => booking.hotel.hotelName === hotel.hotelName).bookedDate);
+			return `${reservationDate?.getDate()} ${months[reservationDate.getMonth()]}  ${reservationDate.getFullYear()}`;
 		}
 	};
 	return (

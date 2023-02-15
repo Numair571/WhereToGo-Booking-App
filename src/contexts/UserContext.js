@@ -16,9 +16,9 @@ export const UserContextProvider = ({ children }) => {
 		};
 	}, []);
 
-	useEffect(() => {
-		console.log(currentUser);
-	}, [currentUser]);
+	// useEffect(() => {
+	// 	console.log(currentUser);
+	// }, [currentUser]);
 
 	useEffect(() => {
 		// Update Current User Data After Update The Bookings [Should Be Posted To Database]
