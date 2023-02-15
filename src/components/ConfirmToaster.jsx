@@ -1,6 +1,11 @@
+// React Hooks
 import { useContext } from 'react';
+
+// BootStrap Components
 import { ToastContainer } from 'react-bootstrap';
 import Toast from 'react-bootstrap/Toast';
+
+// Contexts
 import { ModalsControllerContext } from './../contexts/ModalsControllerContext';
 
 export const ConfirmToaster = () => {

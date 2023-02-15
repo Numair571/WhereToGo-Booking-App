@@ -15,6 +15,10 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+.app {
+	text-align: center;
+}
+
 /* == End Global Styles */
 
 /* == Start Shared Styles == */
@@ -44,12 +48,12 @@ body {
 }
 /* == End Hero Styles */
 
-/* == Start Hotel Card Styles */
+/* == Start Hotel Card Styles == */
 .hotel-location-icon {
 	vertical-align: baseline;
 	margin-right: 10px;
 }
-/* == End Hotel Card Styles */
+/* == End Hotel Card Styles == */
 
 /* -- Media Queries -- */
 /* Small devices (landscape phones, 576px and up)*/

@@ -30,7 +30,8 @@ export const HotelCard = ({ hotel, id }) => {
 		return Math.round(rate * 2) / 2;
 	};
 
-	const getTimeDiff = () => {
+	// Fn To Reformat Date To DD/MM/YYYY
+	const reformatDate = () => {
 		const months = ['Jan.', 'Feb.', 'March', 'April', 'May', 'June', 'July', 'Aug.', 'Sep.', 'Oct.', 'Nov.', 'Dec.'];
 		if (alreadyBooked) {
 			const reservationDate = new Date(currentUser.bookings.find((booking) => booking.hotel.hotelName === hotel.hotelName).bookedDate);
@@ -94,7 +95,7 @@ export const HotelCard = ({ hotel, id }) => {
 						</p>
 						{alreadyBooked && (
 							<div className='card-footer text-muted'>
-								Booked at <span> {getTimeDiff()}</span>
+								Booked at <span> {reformatDate()}</span>
 							</div>
 						)}
 					</div>

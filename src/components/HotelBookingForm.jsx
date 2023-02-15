@@ -8,13 +8,13 @@ import { useContext, useState } from 'react';
 
 // Contexts
 import { ModalsControllerContext } from '../contexts/ModalsControllerContext';
-import { UserContext } from './../contexts/UserContext';
+import { UserContext } from '../contexts/UserContext';
 
 // Utilis
 import { v4 as uuid } from 'uuid';
 import { useForm } from 'react-hook-form';
 
-export const HotelBooking = () => {
+export const HotelBookingForm = () => {
 
 	// States To Handle The Validation of Form Inputs [On Get Dirty]
 	const [emailTouched, setEmailTouched] = useState(false);

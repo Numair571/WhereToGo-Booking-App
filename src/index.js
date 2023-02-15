@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.min.js';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+// App Main Component
+import App from './App';
+
+// Contexts Providers
 import { UserContextProvider } from './contexts/UserContext';
 import { ModalsControllerContextProvider } from './contexts/ModalsControllerContext';
+
+// CSS Styles
+import './index.css';
+
+// BootStrap
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -1,10 +1,19 @@
+// React Hooks and Fn
 import { createContext, useState, useEffect } from 'react';
 
 export const UserContext = createContext();
 
 export const UserContextProvider = ({ children }) => {
+	// State To Hold The Current User Logged In To The App
 	const [currentUser, setCurrentUser] = useState({});
+
+
+	/*State To Hold All User Booking During His Browsing 
+	[Would Be Very Useful in Case of Real Database to not Fetch again 
+		every Time the user Booking Data after Update]
+	*/
 	const [userBookingData, setUserBookingData] = useState([]);
+
 
 	useEffect(() => {
 		// LoggedUser Should Be Fetched in Case we have Database
@@ -16,9 +25,6 @@ export const UserContextProvider = ({ children }) => {
 		};
 	}, []);
 
-	// useEffect(() => {
-	// 	console.log(currentUser);
-	// }, [currentUser]);
 
 	useEffect(() => {
 		// Update Current User Data After Update The Bookings [Should Be Posted To Database]
