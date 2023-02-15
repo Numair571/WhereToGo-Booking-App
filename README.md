@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+![W2G](https://cdn.discordapp.com/attachments/922906707573747803/1075497145089663046/logo-color.png?raw=true)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# WhereToGo
 
-## Available Scripts
+**WhereToGo** website to booking hotels wherever you want.
 
-In the project directory, you can run:
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/navendu-pottekkat/awesome-readme?include_prereleases)
 
-### `npm start`
+#### [Live Demo](https://mohammed-nasif.github.io/WhereToGo-Booking-App/)
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Table of contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [About App](#wheretogo)
+- [Table of contents](#table-of-contents)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Author](#author)
 
-### `npm test`
+# Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Back To Top ⬆️](#table-of-contents)
 
-### `npm run build`
+To use this project, first clone the repo on your device using the command below:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`git clone https://github.com/Mohammed-Nasif/WhereToGo-Booking-App.git`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+OR
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`Download It as Zip File and Then UnZip It on Your Local Machine`
 
-### `npm run eject`
+# Usage
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[Back To Top ⬆️](#table-of-contents)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- After The Installation you can now open it on any Code Text Editor (VS Code).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- You Must First Run the `npm install` in VS Terminal Using in Project File Direction To Install All Required Packages.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Then You Can Run the Project Using `npm start` in VS Terminal Using in Project File Direction To Go Live With The Project.
 
-## Learn More
+- Now you can open the Project on any browser using the localhost of Port: 3000. [http://localhost:3000/]
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Technologies
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[Back To Top ⬆️](#table-of-contents)
 
-### Code Splitting
+- React Js.
+- React Hook Form.
+- BootStrap.
+- React Icons.
+- CSS.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Author
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- LinkedIn - [Mohammed Nasif](https://www.linkedin.com/in/mohammednasif/)
+- Stack Overflow - [@Mohammed-Nasif](https://stackoverflow.com/users/18315357/mohammed-nasif)
+- Twitter - [@jr_nasif](https://twitter.com/jr_nasif)
+- GitHub - [Mohammed Nasif](https://github.com/Mohammed-Nasif)
