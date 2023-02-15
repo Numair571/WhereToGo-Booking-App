@@ -1,3 +1,4 @@
+// Function To Mock A Get Request From API
 export function getHotelsData(signal = null) {
 	const data = [
 		{

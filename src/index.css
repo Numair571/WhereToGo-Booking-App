@@ -1,5 +1,13 @@
+/* == Start Global Styles == */
+:root {
+	--mainColor: #1b4571;
+}
 * {
 	font-family: 'Inter', sans-serif;
+}
+ul {
+	list-style: none;
+	padding: 0 !important;
 }
 body {
 	margin: 0;
@@ -7,3 +15,70 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
+/* == End Global Styles */
+
+/* == Start Shared Styles == */
+.mainBg {
+	background-color: var(--mainColor);
+}
+/* == End Shared Styles == */
+
+/* == Start Hero Styles == */
+.hero {
+	position: relative;
+	height: calc(100vh - 100px);
+}
+.hero-info {
+	width: 100%;
+	position: absolute;
+	z-index: 1000;
+	top: 25%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.hero-header {
+	color: rgb(230, 230, 230);
+	font-size: 4rem;
+	line-height: 6rem;
+	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+/* == End Hero Styles */
+
+/* == Start Hotel Card Styles */
+.hotel-location-icon {
+	vertical-align: baseline;
+	margin-right: 10px;
+}
+/* == End Hotel Card Styles */
+
+/* -- Media Queries -- */
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+	.hero-header {
+		font-size: 2rem;
+		line-height: 6rem;
+	}
+}
+
+/* -- Media Queries -- */
+
+/* -- ScollerBar Style */
+::-webkit-scrollbar {
+	width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #bf2051;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #791533;
+}
+/* -- ScollerBar Style */
