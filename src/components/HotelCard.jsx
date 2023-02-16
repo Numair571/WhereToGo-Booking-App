@@ -84,7 +84,7 @@ export const HotelCard = ({ hotel, id }) => {
 							) : (
 								<button
 									type='button'
-									className='btn btn-warning btn-sm'
+									className='btn cardBtn  btn-sm'
 									onClick={() => {
 										setToggleHotelBookView(true);
 										setCurrentSelectedHotel(hotel);

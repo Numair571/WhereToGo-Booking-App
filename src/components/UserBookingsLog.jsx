@@ -18,7 +18,7 @@ export const UserBookingsLog = () => {
 	const reformatDate = (bookedDate) => {
 		const months = ['Jan.', 'Feb.', 'March', 'April', 'May', 'June', 'July', 'Aug.', 'Sep.', 'Oct.', 'Nov.', 'Dec.'];
 		const reservationDate = new Date(bookedDate);
-		return `${reservationDate?.getDate()} ${months[reservationDate.getMonth()]}  ${reservationDate.getFullYear()}`;
+		return `${reservationDate?.getDate()} ${months[reservationDate.getMonth()]} ${reservationDate.getFullYear()}`;
 	};
 
 	useEffect(() => {
@@ -54,10 +54,10 @@ export const UserBookingsLog = () => {
 										<td className='text-truncate' title={booking.hotel.hotelName}>
 											{booking.hotel.hotelName}
 										</td>
-										<td className='text-truncate' title={booking.hotel.hotelName}>
+										<td className='text-truncate' title={reformatDate(booking.bookedDate)}>
 											{reformatDate(booking.bookedDate)}
 										</td>
-										<td className='text-truncate' title={booking.hotel.hotelName}>
+										<td className='text-truncate' title={booking.bookingId}>
 											{booking.bookingId}
 										</td>
 									</tr>

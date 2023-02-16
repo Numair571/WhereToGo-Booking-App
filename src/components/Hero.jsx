@@ -10,7 +10,7 @@ export const Hero = () => {
 					of hospitality, luxury <br />
 					and comfort.
 				</h2>
-				<a type='button' href='#hotels-explore' className='btn btn-warning btn-lg fs-2 fw-bold text-primary'>
+				<a type='button' href='#hotels-explore' className='btn btn-warning btn-lg fs-2 fw-bold mainTextColor'>
 					Book Now
 				</a>
 			</div>

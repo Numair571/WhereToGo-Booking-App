@@ -1,11 +1,11 @@
 export const ImagesSlider = ({ sliderId, imgSrc1, imgSrc2, isAutomated, classes = '' }) => {
 	return (
-		<div id={sliderId} className={'carousel slide carousel-fade' + classes} data-bs-ride='carousel'>
+		<div id={sliderId} className={'carousel slide carousel-fade' + classes} data-bs-ride={isAutomated && 'carousel'}>
 			<div className='carousel-inner w-100 h-100'>
-				<div className='carousel-item active w-100 h-100' data-bs-interval='3000'>
+				<div className='carousel-item active w-100 h-100' data-bs-interval={isAutomated && '3000'}>
 					<img src={imgSrc1} className='d-block w-100 h-100' alt='Hotel_Image' />
 				</div>
-				<div className='carousel-item w-100 h-100' data-bs-interval='2000'>
+				<div className='carousel-item w-100 h-100' data-bs-interval={isAutomated && '2000'}>
 					<img src={imgSrc2} className='d-block w-100 h-100' alt='Hotel_Image' />
 				</div>
 			</div>

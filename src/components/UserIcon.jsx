@@ -11,7 +11,7 @@ export const UserIcon = () => {
 
 	return (
 		<div className='nav-item dropdown'>
-			<div className='nav-link dropdown-toggle' data-bs-toggle='dropdown' role='button' aria-expanded='false'>
+			<div className='nav-link dropdown-toggle text-light' data-bs-toggle='dropdown' role='button' aria-expanded='false'>
 				{currentUser.userName}
 			</div>
 			<ul className='dropdown-menu' style={{ minWidth: 'fit-content' }}>

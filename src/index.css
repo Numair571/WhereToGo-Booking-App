@@ -25,6 +25,20 @@ body {
 .mainBg {
 	background-color: var(--mainColor);
 }
+.mainTextColor {
+	color: var(--mainColor) !important;
+}
+.cardBtn {
+	border: 1px solid var(--mainColor) !important;
+	color: var(--mainColor) !important;
+	background-color: white !important;
+	transition: 0.2s all ease-in !important;
+}
+
+.cardBtn:hover {
+	color: white !important;
+	background-color: var(--mainColor) !important;
+}
 /* == End Shared Styles == */
 
 /* == Start Hero Styles == */
@@ -44,7 +58,7 @@ body {
 	color: rgb(230, 230, 230);
 	font-size: 4rem;
 	line-height: 6rem;
-	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+    text-shadow: -5px 2px 0 #000;
 }
 /* == End Hero Styles */
 
