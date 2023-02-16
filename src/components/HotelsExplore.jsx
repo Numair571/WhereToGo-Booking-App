@@ -26,7 +26,7 @@ export const HotelsExplore = () => {
 
 	return (
 		<>
-			<section className='container' id='hotels-explore'>
+			<section className='container my-5' id='hotels-explore'>
 				<h2 className='my-5 fw-bold fs-1'>Explore Our Hotels</h2>
 				<div className='d-flex row w-100 justify-content-around align-items-center mx-0'>
 					{hotelsData.map((hotel, i) => (

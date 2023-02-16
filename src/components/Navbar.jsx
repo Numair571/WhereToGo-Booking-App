@@ -8,7 +8,7 @@ export const Navbar = () => {
 	return (
 		<nav className='mainBg navbar navbar-expand navbar-light'>
 			<div className='container'>
-				<a href='home' className='navbar-brand'>
+				<a href='#home' className='navbar-brand'>
 					<div className='w-25'>
 						<img src={Logo} alt='W2G Logo' className='w-50' />
 					</div>
