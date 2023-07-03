@@ -28,7 +28,7 @@ To use this project, first clone the repo on your device using the command below
 
 OR
 
-`Download It as Zip File and Then UnZip It on Your Local Machine`
+`Download It as Zip File and Then UnZip It on Your Local Machine.`
 
 # Usage
 
